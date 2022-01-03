@@ -1,6 +1,37 @@
+body{
+    background: #f4f4f4;
+}
+
+#principal {
+    width: 920px;
+}
+
+.noticia{
+    background: #e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin:8px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.imagem-galeria{
+    background: white;
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+}
+
+.borda{
+    border: 1px solid red;
+    /*display: inline;*/
+}
 /*
 modelo de caixa/ box model
-
 
 .conteudo {
     border: 1px solid red;
@@ -23,7 +54,7 @@ modelo de caixa/ box model
     margin: 50px;
     border: 1px solid red;
     width: 150px;
-}*/
+}
 
 #estilo{
     background:blue;
@@ -35,3 +66,36 @@ h2{
     border: 1px solid red;
     margin: 0px;
 }
+
+.conteudo{
+    background:blue;
+    border: 1px solid grey;
+    width: 150px;
+    height:150px;
+    float: left;
+    margin: 10px;
+}
+
+.clear{
+    clear: left;
+}
+
+#principal{
+    border: 5px solid red;
+    background:green;
+}
+
+.conteudo1{
+    background:red;
+    border: 1px solid grey;
+    width: 150px;
+    height:150px;
+    float:right;
+}
+
+.conteudo-0{
+    background:red;
+    border: 1px solid grey;
+    width: 150px;
+    height:150px;
+}*/
