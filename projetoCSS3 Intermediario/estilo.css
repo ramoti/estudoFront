@@ -1,5 +1,35 @@
 body{
-    background: #f4f4f4;
+    background: #007fc7;
+}
+
+h1{
+
+}
+
+p{
+    width:300px;
+}
+
+.relative{
+    border: 1px solid red;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+
+.fixed{
+    border: 1px solid red;
+    background: #f2f2f2;
+    position: fixed;
+    top:0px;
+}
+
+.absolute{
+    border: 1px solid red;
+    background: #f2f2f2;
+    position: absolute;
+    top: 0px;
+    right: 100px;
 }
 
 #principal {
@@ -29,6 +59,15 @@ body{
 .borda{
     border: 1px solid red;
     /*display: inline;*/
+}
+
+#container{
+    background: #fff;
+    width: 800px;
+    margin:10px auto;
+    padding: 10px;
+    position: relative;
+
 }
 /*
 modelo de caixa/ box model
