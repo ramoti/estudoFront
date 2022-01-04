@@ -2,6 +2,33 @@ body{
     background: #007fc7;
 }
 
+a {
+    color:orange;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+/*link nao visitados*/
+a:link{
+    color:#b9c941;
+}
+
+/*link visitados*/
+a:visited{
+    color:#c0c0c0;
+}
+
+/*link hover*/
+a:hover{
+    color: #fff;
+    background:red;
+}
+
+/*link ativo quando clicado*/
+a:active{
+    color:#e4f371
+}
+
 p{
     width:300px;
 }
