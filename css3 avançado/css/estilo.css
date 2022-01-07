@@ -43,8 +43,38 @@ h1 + p{
     color:red;
 }
 
-/* seletor de irmão geral*/
+/* seletor de irmão geral
 
 h1~p{
     color:pink;
+}
+
+/*Herança e especificidade*/
+
+/*
+body{
+    color:red;
+    border:1px solid red;
+}*/
+
+
+p {
+    color:red;
+}
+
+
+*{
+    color:blue;
+}
+
+h2{
+    color:green;
+}
+
+h2.verde{
+    color:yellow;
+}
+
+h2#amarelo{
+    color:orange;
 }
